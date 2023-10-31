@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Efcore.Notation.Extensions</Title>
+    <Company>jay94ks</Company>
+    <Description>Efcore notation extensions.</Description>
+    <Copyright>copyright (c) jay94ks, all rights reserved.</Copyright>
+    <RepositoryUrl>https://github.com/jay94ks/efcore.notation.extensions</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>efcore; database</PackageTags>
+    <AssemblyVersion>7.0.13</AssemblyVersion>
+    <FileVersion>7.0.13</FileVersion>
+    <PackageProjectUrl>https://github.com/jay94ks/efcore.notation.extensions</PackageProjectUrl>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.13" />
+		<PackageReference Include="Secp256k1.Native" Version="0.1.23" />
+		<PackageReference Include="Secp256k1.Net" Version="0.1.55" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.2" />
+		<PackageReference Include="SimpleBase" Version="4.0.0" />
+	</ItemGroup>
+
+</Project>
