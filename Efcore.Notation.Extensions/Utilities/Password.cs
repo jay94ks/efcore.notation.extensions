@@ -14,11 +14,11 @@ namespace Efcore.Notation.Extensions.Utilities
     {
         private static readonly List<Algorithm> ALGORITHMS = new()
         {
+            { new Pbkdf2Algorithm(Encoding.UTF8.GetBytes("EFCORE_NEUTILS_PASSWORD_SALT"), 32) },
             { new Sha256Algorithm() },
             { new Sha384Algorithm() },
             { new Sha512Algorithm() },
             { new Md5Algorithm() },
-            { new Pbkdf2Algorithm(Encoding.UTF8.GetBytes("EFCORE_NEUTILS_PASSWORD_SALT"), 32) },
         };
 
         // --
