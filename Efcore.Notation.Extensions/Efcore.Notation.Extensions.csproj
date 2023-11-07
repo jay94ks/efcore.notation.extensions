@@ -11,7 +11,7 @@
     <RepositoryUrl>https://github.com/jay94ks/efcore.notation.extensions</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
     <PackageTags>efcore; database</PackageTags>
-    <AssemblyVersion>7.0.13</AssemblyVersion>
+    <AssemblyVersion>7.0.13.1</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <PackageProjectUrl>https://github.com/jay94ks/efcore.notation.extensions</PackageProjectUrl>
     <Version>$(AssemblyVersion)</Version>

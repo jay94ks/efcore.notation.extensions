@@ -22,7 +22,7 @@ namespace Efcore.Notation.Extensions.Internals.Prenotations
                 new ValueConverter<Guid, string>(X => X.ToString(), X => SafeParse(X)),
                 new ValueComparer<Guid>((A, B) => A == B, X => X.GetHashCode(), X => X));
 
-            GuidProperty.HasMaxLength(16 * 2);
+            GuidProperty.HasMaxLength(37);
         }
 
         /// <summary>
