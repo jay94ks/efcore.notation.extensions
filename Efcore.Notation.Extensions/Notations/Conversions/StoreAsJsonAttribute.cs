@@ -6,7 +6,7 @@ namespace Efcore.Notation.Extensions.Notations.Conversions
     /// <summary>
     /// Store the property as string.
     /// </summary>
-    [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class StoreAsJsonAttribute : ConversionAttribute
     {
         /// <inheritdoc/>

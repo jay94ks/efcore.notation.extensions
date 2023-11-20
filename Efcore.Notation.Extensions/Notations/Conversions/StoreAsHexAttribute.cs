@@ -11,7 +11,7 @@ namespace Efcore.Notation.Extensions.Notations.Conversions
     /// <summary>
     /// Store <see cref="byte"/> array as HEX string.
     /// </summary>
-    [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class StoreAsHexAttribute : ConversionAttribute
     {
         /// <inheritdoc/>

@@ -5,7 +5,7 @@ namespace Efcore.Notation.Extensions.Notations.Conversions
     /// <summary>
     /// Store <see cref="byte"/> array as BASE64 string.
     /// </summary>
-    [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class StoreAsBase64Attribute : ConversionAttribute
     {
         /// <summary>

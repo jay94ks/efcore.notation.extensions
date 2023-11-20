@@ -6,7 +6,7 @@ namespace Efcore.Notation.Extensions.Notations.Conversions
     /// <summary>
     /// Base class for database type conversion attributes.
     /// </summary>
-    [AttributeUsage(AttributeTargets.Class)]
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Property)]
     public abstract class ConversionAttribute : NotationAttribute
     {
         /// <inheritdoc/>
